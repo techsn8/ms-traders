@@ -261,51 +261,99 @@ function App() {
           </div>
         </section>
 
-        <section className="contact section" id="contact">
-          <div className="section-heading">
-            <span className="section-kicker">LET'S CONNECT</span>
-            <h2>How can we help you?</h2>
-            <p>Contact us for product details, pricing, or bulk enquiries.</p>
-          </div>
+        
+<section className="contact section" id="contact">
+  <div className="section-heading">
+    <span className="section-kicker">LET'S CONNECT</span>
+    <h2>How can we help you?</h2>
+    <p>
+      Contact us for product details, pricing, or bulk enquiries.
+      We’re here to help you find the right products.
+    </p>
+  </div>
 
-          <div className="contact-card">
-            <div className="contact-intro">
-              <div className="contact-logo">MS</div>
-              <h3>MS Traders</h3>
-              <p>Rice & Kitchen Products</p>
-              <p className="contact-note">
-                Tell us what you need. We will be happy to hear from you.
-              </p>
-            </div>
+  <div className="contact-card">
+    <div className="contact-intro">
+      <div className="contact-logo">MS</div>
 
-            <div className="contact-details">
-              <div className="contact-detail">
-                <span>01</span>
-                <div>
-                  <small>PHONE / WHATSAPP</small>
-                  <strong>Add your business number</strong>
-                </div>
-              </div>
-              <div className="contact-detail">
-                <span>02</span>
-                <div>
-                  <small>EMAIL</small>
-                  <strong>Add your business email</strong>
-                </div>
-              </div>
-              <div className="contact-detail">
-                <span>03</span>
-                <div>
-                  <small>LOCATION</small>
-                  <strong>Add your business location</strong>
-                </div>
-              </div>
-              <a href={contactLink} className="button button-primary contact-button">
-                Contact MS Traders ↗
-              </a>
-            </div>
-          </div>
-        </section>
+      <span className="contact-tag">YOUR TRUSTED TRADING PARTNER</span>
+      <h3>MS Traders</h3>
+      <p className="contact-category">Rice &amp; Kitchen Products</p>
+
+      <div className="contact-divider" />
+
+      <p className="contact-note">
+        Looking for quality products or bulk orders?
+        Get in touch with our team. We’ll be happy to assist you.
+      </p>
+
+      <div className="contact-highlights">
+        <span>✓ Product Enquiries</span>
+        <span>✓ Bulk Orders</span>
+        <span>✓ Pricing &amp; Availability</span>
+      </div>
+    </div>
+
+    <div className="contact-details">
+      <div className="contact-details-heading">
+        <h3>Contact Information</h3>
+        <p>Choose your preferred way to reach us.</p>
+      </div>
+
+      <a
+        href="tel:+918686123047"
+        className="contact-detail"
+      >
+        <span className="contact-detail-icon">☎</span>
+        <span className="contact-detail-content">
+          <small>PHONE / WHATSAPP</small>
+          <strong>+91 86861 23047</strong>
+        </span>
+        <span className="contact-detail-arrow">↗</span>
+      </a>
+
+      <a
+        href="mailto:eaims.himanth@gmail.com"
+        className="contact-detail"
+      >
+        <span className="contact-detail-icon">✉</span>
+        <span className="contact-detail-content">
+          <small>EMAIL ADDRESS</small>
+          <strong>eaims.himanth@gmail.com</strong>
+        </span>
+        <span className="contact-detail-arrow">↗</span>
+      </a>
+
+      <div className="contact-detail contact-address">
+        <span className="contact-detail-icon">⌖</span>
+        <span className="contact-detail-content">
+          <small>OUR LOCATION</small>
+          <strong>
+            Shop No. 4, Thummalagunta Main Arch,
+            near the Telugu Talli Statue,
+            Avilali, Tirupati,
+            Andhra Pradesh – 517502
+          </strong>
+        </span>
+      </div>
+
+      <a
+        href={contactLink}
+        className="button button-primary contact-button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Contact MS Traders
+        <span>↗</span>
+      </a>
+
+      <p className="contact-footer-note">
+        We look forward to hearing from you.
+      </p>
+    </div>
+  </div>
+</section>
+
       </main>
 
       <footer className="footer">
